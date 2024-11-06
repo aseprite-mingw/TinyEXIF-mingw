@@ -3,6 +3,8 @@ cmake_minimum_required(VERSION 3.1)
 project(TinyEXIF)
 include(GNUInstallDirs)
 
+find_package(tinyxml2 REQUIRED)
+
 #CMAKE_BUILD_TOOL
 
 ################################
